@@ -3,6 +3,8 @@ on:
   push:
     branches:
     - master
+permissions:
+  id-token: write
 env:
   AZURE_WEBAPP_NAME: WebApplication220250529181523
   AZURE_WEBAPP_PACKAGE_PATH: WebApplication2/published

@@ -48,7 +48,7 @@ jobs:
         client-id:  ${{ secrets.WC_AZURE_CLIENTID }}
         subscription-id:  ${{ secrets.WC_AZURE_SUBSCRIPTIONID }}
         tenant-id: ${{ secrets.WC_AZURE_TENANTID }}
-        client-secret: ${{ secrets.WC_AZURE_CLIENTSECRET }}
+        # client-secret: ${{ secrets.WC_AZURE_CLIENTSECRET }}
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:

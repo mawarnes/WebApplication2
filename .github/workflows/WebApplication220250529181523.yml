@@ -1,4 +1,4 @@
-name: Build and deploy .NET Core application to Web App WebApplication220250529181523
+name: Build and deploy Web App WebApplication220250529181523 
 on:
   push:
     branches:
